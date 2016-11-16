@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# Thu, 03 Sep 2015 00:37:26 GMT
+# Version: 2.6.0
+# Build: 298/1163
+
+index.html
+
+# cache fonts
+font/fontawesome-webfont.ttf
+
+CACHE:
+# images
+img/favicon.ico
+img/touch-icon.png
+img/touch-icon-152.png
+img/touch-icon-196.png
+img/logo.svg
+img/sugarcrmLogoBlackBackground_RGB.svg
+img/triangles.png
+img/spinner_color-1.svg
+img/spinner_color-2.svg
+img/offline-list.svg
+img/offline-detail.svg
+img/offline-edit.svg
+
+#styles
+css/mobile.css
+
+# javascripts
+lib.js
+sidecar.js
+templates.js
+nomad.js
+
+#other resources
+tutorial.json
+
+NETWORK:
+*
+

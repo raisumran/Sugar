@@ -1,0 +1,11 @@
+/*
+     YUI 3.15.0 (build 834026e)
+     Copyright 2014 Yahoo! Inc. All rights reserved.
+     Licensed under the BSD License.
+     http://yuilibrary.com/license/
+     */
+YUI.add('event-contextmenu',function(Y,NAME){var Event=Y.Event,DOM=Y.DOM,UA=Y.UA,OS=Y.UA.os,ie=UA.ie,gecko=UA.gecko,webkit=UA.webkit,opera=UA.opera,isWin=(OS==="windows"),isMac=(OS==="macintosh"),eventData={},conf={on:function(node,subscription,notifier,filter){var handles=[];handles.push(Event._attach(["contextmenu",function(e){e.preventDefault();var id=Y.stamp(node),data=eventData[id];if(data){e.clientX=data.clientX;e.clientY=data.clientY;e.pageX=data.pageX;e.pageY=data.pageY;delete eventData[id];}
+notifier.fire(e);},node]));handles.push(node[filter?"delegate":"on"]("keydown",function(e){var target=this.getDOMNode(),shiftKey=e.shiftKey,keyCode=e.keyCode,shiftF10=(shiftKey&&keyCode==121),menuKey=(isWin&&keyCode==93),ctrlKey=e.ctrlKey,mKey=(keyCode===77),macWebkitAndGeckoShortcut=(isMac&&(webkit||gecko)&&ctrlKey&&shiftKey&&e.altKey&&mKey),macOperaShortcut=(isMac&&opera&&ctrlKey&&shiftKey&&mKey),clientX=0,clientY=0,scrollX,scrollY,pageX,pageY,xy,x,y;if((isWin&&(shiftF10||menuKey))||(macWebkitAndGeckoShortcut||macOperaShortcut)){if(((ie||(isWin&&(gecko||opera)))&&shiftF10)||macOperaShortcut){e.preventDefault();}
+xy=DOM.getXY(target);x=xy[0];y=xy[1];scrollX=DOM.docScrollX();scrollY=DOM.docScrollY();if(!Y.Lang.isUndefined(x)){clientX=(x+(target.offsetWidth/2))-scrollX;clientY=(y+(target.offsetHeight/2))-scrollY;}
+pageX=clientX+scrollX;pageY=clientY+scrollY;if(menuKey||(isWin&&webkit&&shiftF10)){eventData[Y.stamp(node)]={clientX:clientX,clientY:clientY,pageX:pageX,pageY:pageY};}
+if(((ie||(isWin&&(gecko||opera)))&&shiftF10)||isMac){e.clientX=clientX;e.clientY=clientY;e.pageX=pageX;e.pageY=pageY;notifier.fire(e);}}},filter));subscription._handles=handles;},detach:function(node,subscription,notifier){Y.each(subscription._handles,function(handle){handle.detach();});}};conf.delegate=conf.on;conf.detachDelegate=conf.detach;Event.define("contextmenu",conf,true);},'3.15.0',{"requires":["event-synthetic","dom-screen"]});

@@ -1,0 +1,120 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/06_Customer_Center/10_Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$mod_strings = array (
+	'ACCOUNT_REMOVE_PROJECT_CONFIRM' => '¿Está seguro de que desea quitar esta cuenta de este proyecto?',
+	'ERR_DELETE_RECORD' => 'Debe especificar un número de registro para borrar la cuenta.',
+	'LBL_ACCOUNT_NAME' => 'Nombre de Cuenta:',
+	'LBL_ACCOUNT' => 'Cuenta:',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Actividades',
+	'LBL_ADDRESS_INFORMATION' => 'Direcciones',
+	'LBL_ANNUAL_REVENUE' => 'Ingresos Anuales:',
+	'LBL_ANY_ADDRESS' => 'Otra Dirección:',
+    'LBL_ANY_EMAIL' => 'Correo Electrónico:',
+	'LBL_ANY_PHONE' => 'Tel. Cualquiera:',
+	'LBL_ASSIGNED_TO_NAME' => 'Usuario:',
+	'LBL_RATING' => 'Rating',
+	'LBL_ASSIGNED_TO' => 'Asignado a:',
+	'LBL_ASSIGNED_USER' => 'Asignado a:',
+	'LBL_ASSIGNED_TO_ID' => 'Asignado a:',
+	'LBL_BILLING_ADDRESS_CITY' => 'Ciudad de facturación:',
+	'LBL_BILLING_ADDRESS_COUNTRY' => 'País de facturación:',
+	'LBL_BILLING_ADDRESS_POSTALCODE' => 'Código Postal de facturación:',
+	'LBL_BILLING_ADDRESS_STATE' => 'Estado/provincia de facturación:',
+	'LBL_BILLING_ADDRESS_STREET_2' =>'Calle de facturación 2',
+	'LBL_BILLING_ADDRESS_STREET_3' =>'Calle de facturación 3',
+	'LBL_BILLING_ADDRESS_STREET_4' =>'Calle de facturación 4',
+	'LBL_BILLING_ADDRESS_STREET' => 'Calle de facturación:',
+	'LBL_BILLING_ADDRESS' => 'Dirección de Facturación:',
+	'LBL_ACCOUNT_INFORMATION' => 'Información de la Cuenta',
+	'LBL_CITY' => 'Ciudad:',
+	'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+	'LBL_COUNTRY' => 'País:',
+	'LBL_DATE_ENTERED' => 'Fecha Creación:',
+	'LBL_DATE_MODIFIED' => 'Fecha Modificación:',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Cuentas',
+	'LBL_DESCRIPTION_INFORMATION' => 'Información adicional',
+	'LBL_DESCRIPTION' => 'Descripción:',
+	'LBL_DUPLICATE' => 'Posible cuenta duplicada',
+    'LBL_EMAIL' => 'Dirección de Correo:',
+	'LBL_EMPLOYEES' => 'Empleado:',
+	'LBL_FAX' => 'Fax:',
+	'LBL_INDUSTRY' => 'Industria:',
+	'LBL_LIST_ACCOUNT_NAME' => 'Nombre de Cuenta',
+	'LBL_LIST_CITY' => 'Ciudad',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Dirección de Correo',
+	'LBL_LIST_PHONE' => 'Cualquier teléfono',
+	'LBL_LIST_STATE' => 'Estado/Provincia',
+	'LBL_LIST_WEBSITE' => 'Sitio Web',
+	'LBL_MEMBER_OF' => 'Miembro de:',
+	'LBL_MEMBER_ORG_FORM_TITLE' => 'Organizaciones Miembro',
+	'LBL_MEMBER_ORG_SUBPANEL_TITLE'=>'Organizaciones Miembro',
+	'LBL_NAME'=>'Nombre:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Otro Correo Electrónico:',
+	'LBL_OTHER_PHONE' => 'Tel. Alternativo:',
+	'LBL_OWNERSHIP' => 'Propietario:',
+	'LBL_PARENT_ACCOUNT_ID' => 'ID de Cuenta de Registro Padre',
+	'LBL_PHONE_ALT' => 'Teléfono Alternativo:',
+	'LBL_PHONE_FAX' => 'Fax de oficina:',
+	'LBL_PHONE_OFFICE' => 'Tel. Oficina:',
+	'LBL_PHONE' => 'Teléfono:',
+    'LBL_EMAIL_ADDRESS' => 'Dirección de Correo',
+    'LBL_EMAIL_ADDRESSES' => 'Correo Electrónico',
+	'LBL_POSTAL_CODE' => 'Código Postal:',
+	'LBL_PUSH_BILLING' => 'Emisión de Facturas',
+	'LBL_PUSH_SHIPPING' => 'Emisión de Envíos',
+	'LBL_SAVE_ACCOUNT' => 'Guardar Cuenta',
+	'LBL_SHIPPING_ADDRESS_CITY' => 'Ciudad de envío:',
+	'LBL_SHIPPING_ADDRESS_COUNTRY' => 'País de envío:',
+	'LBL_SHIPPING_ADDRESS_POSTALCODE' => 'Código Postal de envío:',
+	'LBL_SHIPPING_ADDRESS_STATE' => 'Estado/provincia de envío:',
+	'LBL_SHIPPING_ADDRESS_STREET_2' => 'Calle de envío 2',
+	'LBL_SHIPPING_ADDRESS_STREET_3' => 'Calle de envío 3',
+	'LBL_SHIPPING_ADDRESS_STREET_4' => 'Calle de envío 4',
+	'LBL_SHIPPING_ADDRESS_STREET' => 'Calle de envío:',
+	'LBL_SHIPPING_ADDRESS' => 'Dirección de Envío:',
+
+	'LBL_STATE' => 'Estado/Provincia:',
+	'LBL_TEAMS_LINK'=>'Equipos',
+	'LBL_TICKER_SYMBOL' => 'Símbolo Ticker:',
+	'LBL_TYPE' => 'Tipo:',
+	'LBL_USERS_ASSIGNED_LINK'=>'Usuarios Asignados',
+	'LBL_USERS_CREATED_LINK'=>'Usuarios Creado Por',
+	'LBL_USERS_MODIFIED_LINK'=>'Usuarios Modificados',
+	'LBL_VIEW_FORM_TITLE' => 'Vista de Cuenta',
+	'LBL_WEBSITE' => 'Web:',
+    'LBL_LINKEDIN' => 'ID de Empresa en Linkedin',
+    'LBL_FACEBOOK' => 'Cuenta de Facebook',
+    'LBL_TWITTER' => 'ID de Twitter',
+    'LBL_GOOGLEPLUS' => 'ID de Google Plus',
+
+	'LNK_ACCOUNT_LIST' => 'Cuentas',
+	'LNK_NEW_ACCOUNT' => 'Nueva Cuenta',
+
+	'MSG_DUPLICATE' => 'La creación de esta cuenta puede producir una cuenta duplicada. Puede elegir una cuenta existente de la lista inferior o hacer clic en Guardar para continuar la creación de una nueva cuenta con los datos introducidos previamente.',
+	'MSG_SHOW_DUPLICATES' => 'El registro para la cuenta que va a crear podría ser un duplicado de otro registro de cuenta existente. Los registros de cuenta con nombres similares se listan a continuación.<br>Haga clic en Guardar para continuar con la creación de esta cuenta, o en Cancelar para volver al módulo sin crear la cuenta.',
+
+	'NTC_COPY_BILLING_ADDRESS' => 'Copiar dirección de facturación a dirección de envío',
+	'NTC_COPY_BILLING_ADDRESS2' => 'Copiar a dirección de envío',
+	'NTC_COPY_SHIPPING_ADDRESS' => 'Copiar dirección de envío a dirección de facturación',
+	'NTC_COPY_SHIPPING_ADDRESS2' => 'Copiar a dirección de facturación',
+	'NTC_DELETE_CONFIRMATION' => '¿Está seguro de que desea eliminar este registro?',
+	'NTC_REMOVE_ACCOUNT_CONFIRMATION' => '¿Está seguro de que desea quitar este registro?',
+	'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => '¿Está seguro de que desea quitar este registro como organización miembro?',
+
+    'LBL_EDIT_BUTTON' => 'Editar',
+    'LBL_REMOVE' => 'Quitar',
+
+);
+
+

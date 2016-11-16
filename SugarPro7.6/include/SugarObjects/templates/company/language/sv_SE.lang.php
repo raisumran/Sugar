@@ -1,0 +1,120 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/06_Customer_Center/10_Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$mod_strings = array (
+	'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Är du säker på att du vill ta bort den här organisationen från detta projekt?',
+	'ERR_DELETE_RECORD' => 'Ett objektnummer måste specificeras för att kunna radera organisationen.',
+	'LBL_ACCOUNT_NAME' => 'Företagsnamn:',
+	'LBL_ACCOUNT' => 'Företag:',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Aktiviteter',
+	'LBL_ADDRESS_INFORMATION' => 'Adressinformation',
+	'LBL_ANNUAL_REVENUE' => 'Årsredovisning:',
+	'LBL_ANY_ADDRESS' => 'Någon adress:',
+    'LBL_ANY_EMAIL' => 'Någon epost:',
+	'LBL_ANY_PHONE' => 'Någon telefon:',
+	'LBL_ASSIGNED_TO_NAME' => 'Tilldelad till:',
+	'LBL_RATING' => 'Klassificering',
+	'LBL_ASSIGNED_TO' => 'Tilldelad till:',
+	'LBL_ASSIGNED_USER' => 'Tilldelad till:',
+	'LBL_ASSIGNED_TO_ID' => 'Tilldelad till:',
+	'LBL_BILLING_ADDRESS_CITY' => 'Faktureringsadress stad:',
+	'LBL_BILLING_ADDRESS_COUNTRY' => 'Faktureringadress land:',
+	'LBL_BILLING_ADDRESS_POSTALCODE' => 'Faktureringadress postnummer:',
+	'LBL_BILLING_ADDRESS_STATE' => 'Faktureringsadress stat:',
+	'LBL_BILLING_ADDRESS_STREET_2' =>'Faktureringsadress gata 2',
+	'LBL_BILLING_ADDRESS_STREET_3' =>'Faktureringsadress gata 3',
+	'LBL_BILLING_ADDRESS_STREET_4' =>'Faktureringsadress gata 4',
+	'LBL_BILLING_ADDRESS_STREET' => 'Faktureringsadress gata:',
+	'LBL_BILLING_ADDRESS' => 'Adress:',
+	'LBL_ACCOUNT_INFORMATION' => 'Företagsinformation',
+	'LBL_CITY' => 'Stad:',
+	'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+	'LBL_COUNTRY' => 'Land:',
+	'LBL_DATE_ENTERED' => 'Skapat datum:',
+	'LBL_DATE_MODIFIED' => 'Redigeringsdatum:',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Organisationer',
+	'LBL_DESCRIPTION_INFORMATION' => 'Beskrivande information',
+	'LBL_DESCRIPTION' => 'Beskrivning:',
+	'LBL_DUPLICATE' => 'Möjlig kopia av organisationen',
+    'LBL_EMAIL' => 'Epostadress:',
+	'LBL_EMPLOYEES' => 'Anställda:',
+	'LBL_FAX' => 'Fax:',
+	'LBL_INDUSTRY' => 'Bransch:',
+	'LBL_LIST_ACCOUNT_NAME' => 'Företagsnamn',
+	'LBL_LIST_CITY' => 'Stad',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Epostadress',
+	'LBL_LIST_PHONE' => 'Telefon',
+	'LBL_LIST_STATE' => 'Stat',
+	'LBL_LIST_WEBSITE' => 'Websida',
+	'LBL_MEMBER_OF' => 'Medlem av:',
+	'LBL_MEMBER_ORG_FORM_TITLE' => 'Medlemsorganisationer',
+	'LBL_MEMBER_ORG_SUBPANEL_TITLE'=>'Medlemsorganisationer',
+	'LBL_NAME'=>'Namn:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Annan epost:',
+	'LBL_OTHER_PHONE' => 'Annan telefon:',
+	'LBL_OWNERSHIP' => 'Ägandeskap:',
+	'LBL_PARENT_ACCOUNT_ID' => 'Förälderorganisations ID',
+	'LBL_PHONE_ALT' => 'Alternativ telefon:',
+	'LBL_PHONE_FAX' => 'Telefon fax:',
+	'LBL_PHONE_OFFICE' => 'Kontorstelefon:',
+	'LBL_PHONE' => 'Telefon:',
+    'LBL_EMAIL_ADDRESS' => 'Epostadress',
+    'LBL_EMAIL_ADDRESSES' => 'Epost Adress(er)',
+	'LBL_POSTAL_CODE' => 'Postnummer:',
+	'LBL_PUSH_BILLING' => 'Fakturera',
+	'LBL_PUSH_SHIPPING' => 'Leverera',
+	'LBL_SAVE_ACCOUNT' => 'Spara organisation',
+	'LBL_SHIPPING_ADDRESS_CITY' => 'Leveransadress stad:',
+	'LBL_SHIPPING_ADDRESS_COUNTRY' => 'Leveransadress land:',
+	'LBL_SHIPPING_ADDRESS_POSTALCODE' => 'Leveransadress postnummer:',
+	'LBL_SHIPPING_ADDRESS_STATE' => 'Leveransadress stat:',
+	'LBL_SHIPPING_ADDRESS_STREET_2' => 'Leveransadress gata 2',
+	'LBL_SHIPPING_ADDRESS_STREET_3' => 'Leveransadress gata 3',
+	'LBL_SHIPPING_ADDRESS_STREET_4' => 'Leveransadress gata 4',
+	'LBL_SHIPPING_ADDRESS_STREET' => 'Leveransadress gata:',
+	'LBL_SHIPPING_ADDRESS' => 'Adress:',
+
+	'LBL_STATE' => 'Stat:',
+	'LBL_TEAMS_LINK'=>'Team',
+	'LBL_TICKER_SYMBOL' => 'Ticker Symbol:',
+	'LBL_TYPE' => 'Typ:',
+	'LBL_USERS_ASSIGNED_LINK'=>'Tilldelade användare',
+	'LBL_USERS_CREATED_LINK'=>'Skapad av användare',
+	'LBL_USERS_MODIFIED_LINK'=>'Redigerade användare',
+	'LBL_VIEW_FORM_TITLE' => 'Organisations vy',
+	'LBL_WEBSITE' => 'Webbsida',
+    'LBL_LINKEDIN' => 'Linkedin Företag ID',
+    'LBL_FACEBOOK' => 'Facebook-konto',
+    'LBL_TWITTER' => 'Twitter konto',
+    'LBL_GOOGLEPLUS' => 'Google Plus ID',
+
+	'LNK_ACCOUNT_LIST' => 'Organisationer',
+	'LNK_NEW_ACCOUNT' => 'Skapa organisation',
+
+	'MSG_DUPLICATE' => 'Att skapa denna organisation kan möjligen skapa en duplicerad organisation. Du kan antingen välja en organisation här nedanför eller klicka Spara och fortsätta skapa en ny organisation med den tidigare införda datan.',
+	'MSG_SHOW_DUPLICATES' => 'Organisationen du är på väg att skapa kan vara en kopia av en befintlig organisation. Organisationer som innehåller liknande namn är listade nedan.<br>Välj Spara för att fortsätta skapa den nya organisationen eller välj Avbryt för att återgå till modulen utan att skapa organisationen.',
+
+	'NTC_COPY_BILLING_ADDRESS' => 'Kopiera faktureringsadress till leveransadress',
+	'NTC_COPY_BILLING_ADDRESS2' => 'Kopiera leverans',
+	'NTC_COPY_SHIPPING_ADDRESS' => 'Kopiera leveransadress till faktureringsadress',
+	'NTC_COPY_SHIPPING_ADDRESS2' => 'Kopiera fakturering',
+	'NTC_DELETE_CONFIRMATION' => 'Är du säker på att du vill radera posten?',
+	'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Är du säker på att du vill ta bort posten?',
+	'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Är du säker på att du vill ta bort posten från medlemsorganisationen?',
+
+    'LBL_EDIT_BUTTON' => 'Redigera',
+    'LBL_REMOVE' => 'Radera',
+
+);
+
+

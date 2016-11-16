@@ -1,0 +1,40 @@
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to create index: Elastica\Exception\Connection\HttpException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Full Text Search has been disabled because the system is not able to connect to the search engine.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] Unable to get server status: Elastica\Exception\ClientException
+Mon Mar  7 04:20:46 2016 [5025][1][FATAL] FTS Server is down, postponing the job for full index.
+Mon Mar  7 04:22:10 2016 [5474][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:16 2016 [5474][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:17 2016 [5026][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:25 2016 [5473][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:29 2016 [5473][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:29 2016 [5025][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:29 2016 [5473][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:29 2016 [5475][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:31 2016 [5475][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:31 2016 [5473][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:31 2016 [5564][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!
+Mon Mar  7 04:22:31 2016 [5023][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone America/Los_Angeles. Please set date.timezone="America/Los_Angeles" in php.ini!

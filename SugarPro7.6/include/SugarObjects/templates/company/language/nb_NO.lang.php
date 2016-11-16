@@ -1,0 +1,120 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/06_Customer_Center/10_Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$mod_strings = array (
+	'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this account from this project?',
+	'ERR_DELETE_RECORD' => 'Et registernummer må oppgis for å slette kontoen.',
+	'LBL_ACCOUNT_NAME' => 'Firmanavn:',
+	'LBL_ACCOUNT' => 'Firma:',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Aktiviteter',
+	'LBL_ADDRESS_INFORMATION' => 'Adresseinformasjon',
+	'LBL_ANNUAL_REVENUE' => 'Årlig omsetning:',
+	'LBL_ANY_ADDRESS' => 'Enhver adresse:',
+    'LBL_ANY_EMAIL' => 'Vilkårlig e-postadresse:',
+	'LBL_ANY_PHONE' => 'Annet telefonnummer:',
+	'LBL_ASSIGNED_TO_NAME' => 'Bruker:',
+	'LBL_RATING' => 'Rating',
+	'LBL_ASSIGNED_TO' => 'Tildelt:',
+	'LBL_ASSIGNED_USER' => 'Tildelt:',
+	'LBL_ASSIGNED_TO_ID' => 'Tildelt:',
+	'LBL_BILLING_ADDRESS_CITY' => 'Fakturaadr.: By:',
+	'LBL_BILLING_ADDRESS_COUNTRY' => 'Fakturaadr.: Land:',
+	'LBL_BILLING_ADDRESS_POSTALCODE' => 'Fakturaadr.: Postnr:',
+	'LBL_BILLING_ADDRESS_STATE' => 'Fakturaadr.: Stat:',
+	'LBL_BILLING_ADDRESS_STREET_2' =>'Fakturaadr.: Gateadr 1',
+	'LBL_BILLING_ADDRESS_STREET_3' =>'Fakturaadr.: Gateadr 2',
+	'LBL_BILLING_ADDRESS_STREET_4' =>'Fakturaadr.: Gateadr 3',
+	'LBL_BILLING_ADDRESS_STREET' => 'Fakturaadr.: Gateadr.',
+	'LBL_BILLING_ADDRESS' => 'Adresse:',
+	'LBL_ACCOUNT_INFORMATION' => 'Firma Informasjon',
+	'LBL_CITY' => 'By:',
+	'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+	'LBL_COUNTRY' => 'Land:',
+	'LBL_DATE_ENTERED' => 'Inngangsdato:',
+	'LBL_DATE_MODIFIED' => 'Endringsdato:',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Bedrifter',
+	'LBL_DESCRIPTION_INFORMATION' => 'Beskrivelsesinformasjon',
+	'LBL_DESCRIPTION' => 'Beskrivelse:',
+	'LBL_DUPLICATE' => 'Mulig dublett Bedrift',
+    'LBL_EMAIL' => 'Email Adresse:',
+	'LBL_EMPLOYEES' => 'Ansatte:',
+	'LBL_FAX' => 'Faks:',
+	'LBL_INDUSTRY' => 'Bransje:',
+	'LBL_LIST_ACCOUNT_NAME' => 'Kontonavn',
+	'LBL_LIST_CITY' => 'By',
+    'LBL_LIST_EMAIL_ADDRESS' => 'E-postadresse',
+	'LBL_LIST_PHONE' => 'Telefonnummer',
+	'LBL_LIST_STATE' => 'Stand',
+	'LBL_LIST_WEBSITE' => 'Webside',
+	'LBL_MEMBER_OF' => 'Medlem av:',
+	'LBL_MEMBER_ORG_FORM_TITLE' => 'Medlemsorganisasjoner',
+	'LBL_MEMBER_ORG_SUBPANEL_TITLE'=>'Medlemsorganisasjoner',
+	'LBL_NAME'=>'Navn:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Annen e-postadresse:',
+	'LBL_OTHER_PHONE' => 'Annet telefonnummer:',
+	'LBL_OWNERSHIP' => 'Eier:',
+	'LBL_PARENT_ACCOUNT_ID' => 'Eier-ID',
+	'LBL_PHONE_ALT' => 'Alternativ telefon:',
+	'LBL_PHONE_FAX' => 'Faks:',
+	'LBL_PHONE_OFFICE' => 'Telefonnummer til kontor:',
+	'LBL_PHONE' => 'Telefonnummer:',
+    'LBL_EMAIL_ADDRESS' => 'E-postadresse',
+    'LBL_EMAIL_ADDRESSES' => 'E-post Adresse(r)',
+	'LBL_POSTAL_CODE' => 'Postnummer:',
+	'LBL_PUSH_BILLING' => 'Fremskynd fakturering',
+	'LBL_PUSH_SHIPPING' => 'Fremskynd forsendelse',
+	'LBL_SAVE_ACCOUNT' => 'Lagre Bedrift',
+	'LBL_SHIPPING_ADDRESS_CITY' => 'Levering: By:',
+	'LBL_SHIPPING_ADDRESS_COUNTRY' => 'Leveringsadr.: Land:',
+	'LBL_SHIPPING_ADDRESS_POSTALCODE' => 'Leveringadr.: Postnr:',
+	'LBL_SHIPPING_ADDRESS_STATE' => 'Leveringadr.: Stat:',
+	'LBL_SHIPPING_ADDRESS_STREET_2' => 'Leveringsadr.: Gate 2',
+	'LBL_SHIPPING_ADDRESS_STREET_3' => 'Leveringsadr.: Gate 3',
+	'LBL_SHIPPING_ADDRESS_STREET_4' => 'Leveringsadr.: Gate 4',
+	'LBL_SHIPPING_ADDRESS_STREET' => 'Leveringsadr.: Gate',
+	'LBL_SHIPPING_ADDRESS' => 'Adresse:',
+
+	'LBL_STATE' => 'Stat:',
+	'LBL_TEAMS_LINK'=>'Grupper',
+	'LBL_TICKER_SYMBOL' => 'Ticker:',
+	'LBL_TYPE' => 'Type:',
+	'LBL_USERS_ASSIGNED_LINK'=>'Tildelte brukere',
+	'LBL_USERS_CREATED_LINK'=>'Opprettet av brukere',
+	'LBL_USERS_MODIFIED_LINK'=>'Endrede brukere',
+	'LBL_VIEW_FORM_TITLE' => 'Bedriftoppsett',
+	'LBL_WEBSITE' => 'Nettsted:',
+    'LBL_LINKEDIN' => 'LinkedIN Firma ID',
+    'LBL_FACEBOOK' => 'Facebook konto',
+    'LBL_TWITTER' => 'Twitter konto',
+    'LBL_GOOGLEPLUS' => 'Google Plus ID',
+
+	'LNK_ACCOUNT_LIST' => 'Bedrifter',
+	'LNK_NEW_ACCOUNT' => 'Opprett bedrift',
+
+	'MSG_DUPLICATE' => 'Creating this account may potentially create a duplicate account. You may either select an account from the list below or you may click on Save to continue creating a new account with the previously entered data.',
+	'MSG_SHOW_DUPLICATES' => 'Bedriftoppføringen som du er iferd med å opprette kan være en dublett av en eksisterende bedriftoppføring. Bedriftoppføringer som inneholder lignende navn listes nedenfor.<br>Klikk "Lagre" for å fortsette med den nye oppføringen, eller klikk "Avbryt" for å gå tilbake uten å opprette en ny bedrift.',
+
+	'NTC_COPY_BILLING_ADDRESS' => 'Kopiér faktureringsadresse til sendeadresse',
+	'NTC_COPY_BILLING_ADDRESS2' => 'Kopiér til avsender',
+	'NTC_COPY_SHIPPING_ADDRESS' => 'Kopiér sendeadresse til faktureringsadresse',
+	'NTC_COPY_SHIPPING_ADDRESS2' => 'Kopiér til fakturering',
+	'NTC_DELETE_CONFIRMATION' => 'Er du sikker på at du vil slette denne registreringen?',
+	'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Vil du virkelig fjerne denne posten?',
+	'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Er du sikker på at du vil slette denne oppføringen som en medlemsorganisasjon?',
+
+    'LBL_EDIT_BUTTON' => 'Rediger',
+    'LBL_REMOVE' => 'Fjern',
+
+);
+
+

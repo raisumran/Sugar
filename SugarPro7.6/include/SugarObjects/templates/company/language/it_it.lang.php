@@ -1,0 +1,120 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/06_Customer_Center/10_Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+
+$mod_strings = array (
+	'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Sei sicuro di voler rimuovere questa azienda da questo progetto?',
+	'ERR_DELETE_RECORD' => 'Per eliminare l´azienda deve essere specificato il numero del record.',
+	'LBL_ACCOUNT_NAME' => 'Nome Azienda:',
+	'LBL_ACCOUNT' => 'Azienda:',
+	'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Attività',
+	'LBL_ADDRESS_INFORMATION' => 'Informazioni sull´indirizzo',
+	'LBL_ANNUAL_REVENUE' => 'Fatturato Annuo:',
+	'LBL_ANY_ADDRESS' => 'Altri Indirizzi:',
+    'LBL_ANY_EMAIL' => 'Email alternativa:',
+	'LBL_ANY_PHONE' => 'Altro Telefono:',
+	'LBL_ASSIGNED_TO_NAME' => 'Utente',
+	'LBL_RATING' => 'Valutazione',
+	'LBL_ASSIGNED_TO' => 'Assegnato a:',
+	'LBL_ASSIGNED_USER' => 'Assegnato a:',
+	'LBL_ASSIGNED_TO_ID' => 'Assegnato a:',
+	'LBL_BILLING_ADDRESS_CITY' => 'Comune:',
+	'LBL_BILLING_ADDRESS_COUNTRY' => 'Nazione:',
+	'LBL_BILLING_ADDRESS_POSTALCODE' => 'CAP:',
+	'LBL_BILLING_ADDRESS_STATE' => 'Provincia:',
+	'LBL_BILLING_ADDRESS_STREET_2' =>'Indirizzo di Fatturazione, Via (2)',
+	'LBL_BILLING_ADDRESS_STREET_3' =>'Indirizzo di Fatturazione, Via (3)',
+	'LBL_BILLING_ADDRESS_STREET_4' =>'Indirizzo di Fatturazione, Via (4)',
+	'LBL_BILLING_ADDRESS_STREET' => 'Via:',
+	'LBL_BILLING_ADDRESS' => 'Indirizzo di fatturazione:',
+	'LBL_ACCOUNT_INFORMATION' => 'Informazioni Azienda',
+	'LBL_CITY' => 'Comune :',
+	'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+	'LBL_COUNTRY' => 'Nazione:',
+	'LBL_DATE_ENTERED' => 'Data Inserimento:',
+	'LBL_DATE_MODIFIED' => 'Data Modifica:',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Aziende',
+	'LBL_DESCRIPTION_INFORMATION' => 'Descrizione',
+	'LBL_DESCRIPTION' => 'Descrizione:',
+	'LBL_DUPLICATE' => 'Possibile Duplicati Azienda',
+    'LBL_EMAIL' => 'Indirizzo Email:',
+	'LBL_EMPLOYEES' => 'Dipendenti:',
+	'LBL_FAX' => 'Fax:',
+	'LBL_INDUSTRY' => 'Settore:',
+	'LBL_LIST_ACCOUNT_NAME' => 'Nome Azienda',
+	'LBL_LIST_CITY' => 'Comune',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Indirizzo Email',
+	'LBL_LIST_PHONE' => 'Telefono',
+	'LBL_LIST_STATE' => 'Stato/Provincia',
+	'LBL_LIST_WEBSITE' => 'Sito web',
+	'LBL_MEMBER_OF' => 'Membro di:',
+	'LBL_MEMBER_ORG_FORM_TITLE' => 'Aziende Collegate',
+	'LBL_MEMBER_ORG_SUBPANEL_TITLE'=>'Aziende Collegate',
+	'LBL_NAME'=>'Nome:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Altra Email:',
+	'LBL_OTHER_PHONE' => 'Altro Telefono:',
+	'LBL_OWNERSHIP' => 'Proprietario:',
+	'LBL_PARENT_ACCOUNT_ID' => 'ID Azienda Padre',
+	'LBL_PHONE_ALT' => 'Telefono Alternativo:',
+	'LBL_PHONE_FAX' => 'Numero Fax:',
+	'LBL_PHONE_OFFICE' => 'Telefono Ufficio:',
+	'LBL_PHONE' => 'Telefono:',
+    'LBL_EMAIL_ADDRESS' => 'Indirizzo Email',
+    'LBL_EMAIL_ADDRESSES' => 'Indirizzo email',
+	'LBL_POSTAL_CODE' => 'CAP:',
+	'LBL_PUSH_BILLING' => 'Forzare Fatturazione',
+	'LBL_PUSH_SHIPPING' => 'Forzare Spedizione',
+	'LBL_SAVE_ACCOUNT' => 'Salva Azienda',
+	'LBL_SHIPPING_ADDRESS_CITY' => 'Comune:',
+	'LBL_SHIPPING_ADDRESS_COUNTRY' => 'Nazione:',
+	'LBL_SHIPPING_ADDRESS_POSTALCODE' => 'CAP:',
+	'LBL_SHIPPING_ADDRESS_STATE' => 'Provincia:',
+	'LBL_SHIPPING_ADDRESS_STREET_2' => 'Indirizzo di Spedizione, Via (2)',
+	'LBL_SHIPPING_ADDRESS_STREET_3' => 'Indirizzo di Spedizione, Via (3)',
+	'LBL_SHIPPING_ADDRESS_STREET_4' => 'Indirizzo di Spedizione, Via (4)',
+	'LBL_SHIPPING_ADDRESS_STREET' => 'Via:',
+	'LBL_SHIPPING_ADDRESS' => 'Indirizzo di spedizione:',
+
+	'LBL_STATE' => 'Provincia:',
+	'LBL_TEAMS_LINK'=>'Gruppi',
+	'LBL_TICKER_SYMBOL' => 'Ticker:',
+	'LBL_TYPE' => 'Tipo:',
+	'LBL_USERS_ASSIGNED_LINK'=>'Utenti Assegnati',
+	'LBL_USERS_CREATED_LINK'=>'Creato dagli Utenti',
+	'LBL_USERS_MODIFIED_LINK'=>'Utenti Modificati',
+	'LBL_VIEW_FORM_TITLE' => 'Vista Azienda',
+	'LBL_WEBSITE' => 'Sito web:',
+    'LBL_LINKEDIN' => 'ID Azienda Collegata',
+    'LBL_FACEBOOK' => 'Account Facebook',
+    'LBL_TWITTER' => 'ID Twitter',
+    'LBL_GOOGLEPLUS' => 'ID Google Plus',
+
+	'LNK_ACCOUNT_LIST' => 'Aziende',
+	'LNK_NEW_ACCOUNT' => 'Nuova Azienda',
+
+	'MSG_DUPLICATE' => 'La creazione di questa azienda può potenzialmente creare un duplicato. Possibile selezionare una azienda dalla lista qui sotto, oppure si può cliccare su Salva per continuare la creazione di una nuova azienda con i dati inseriti precedentemente.',
+	'MSG_SHOW_DUPLICATES' => 'Creando questa azienda c´è il rischio di creare un duplicato. Le aziende che contengono delle similitudini sono elencate qui sotto.<br>Cliccare Salva per proseguire con la creazione della nuova azienda, oppure cliccare Annulla per ritornare al modulo senza creare la nuova azienda.',
+
+	'NTC_COPY_BILLING_ADDRESS' => 'Copia l´indirizzo di fatturazione in indirizzo di spedizione',
+	'NTC_COPY_BILLING_ADDRESS2' => 'Copia in spedizione',
+	'NTC_COPY_SHIPPING_ADDRESS' => 'Copia l´indirizzo di spedizione in indirizzo di fatturazione',
+	'NTC_COPY_SHIPPING_ADDRESS2' => 'Copia in fatturazione',
+	'NTC_DELETE_CONFIRMATION' => 'Sei sicuro di voler eliminare questo record ?',
+	'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Sei sicuro di voler cancellare questo record?',
+	'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Sei sicuro di voler cancellare questo recors come membro dell´organizzazione?',
+
+    'LBL_EDIT_BUTTON' => 'Modifica',
+    'LBL_REMOVE' => 'Rimuovi',
+
+);
+
+
