@@ -1,5 +1,5 @@
 <?php
-// created: 2016-03-07 04:20:48
+// created: 2016-11-16 05:03:07
 $existing_files = array (
   'cache' => 
   array (
@@ -26275,9 +26275,37 @@ $existing_files = array (
         'metadata' => 
         array (
           'display_config.php' => 1,
+          'connectors.php' => 1,
         ),
       ),
       'unified_search_modules_display.php' => 1,
+      'Cases' => 
+      array (
+        'Ext' => 
+        array (
+          'Language' => 
+          array (
+            'en_us.lang.ext.php' => 1,
+          ),
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
+        ),
+        'clients' => 
+        array (
+          'base' => 
+          array (
+            'views' => 
+            array (
+              'record' => 
+              array (
+                'record.php' => 1,
+              ),
+            ),
+          ),
+        ),
+      ),
     ),
     'application' => 
     array (
@@ -26290,6 +26318,27 @@ $existing_files = array (
       ),
     ),
     'index.html' => 1,
+    'working' => 
+    array (
+      'modules' => 
+      array (
+        'Cases' => 
+        array (
+          'clients' => 
+          array (
+            'base' => 
+            array (
+              'views' => 
+              array (
+                'record' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
   ),
   'vendor' => 
   array (

@@ -1,5 +1,5 @@
 <?php
-// created: 2016-03-07 04:19:19
+// created: 2016-11-16 05:08:38
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -135,4 +135,5 @@ To create a {{module_name}}:
 2. Click "Save" to finalize the new record and return to the previous page.
  - Choose "Save and view" to open the new {{module_name}} in record view.
  - Choose "Save and create new" to immediately create another new {{module_name}}.',
+  'LBL_SUPPORT_LEVEL' => 'Support_Level',
 );
