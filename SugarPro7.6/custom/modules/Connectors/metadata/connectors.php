@@ -1,5 +1,5 @@
 <?php
-// created: 2016-11-16 04:03:11
+// created: 2016-11-17 04:01:30
 $connectors = array (
   'ext_rest_twitter' => 
   array (
