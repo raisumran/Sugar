@@ -1,5 +1,5 @@
 <?php
-// created: 2016-11-16 05:11:01
+// created: 2016-03-07 04:22:32
 $class_map = array (
   'XTemplate' => 'vendor/XTemplate/xtpl.php',
   'Javascript' => 'include/javascript/javascript.php',
@@ -3644,28 +3644,4 @@ $class_map = array (
   'StringLiteralExpression' => 'include/Expressions/Expression/String/StringLiteralExpression.php',
   'EqualExpression' => 'include/Expressions/Expression/Boolean/EqualExpression.php',
   'M2MRelationship' => 'data/Relationships/M2MRelationship.php',
-  'SugarMath' => 'include/SugarMath/SugarMath.php',
-  'UserBasedRelationship' => 'data/Relationships/UserBasedRelationship.php',
-  'One2MRelationship' => 'data/Relationships/One2MRelationship.php',
-  'One2MBeanRelationship' => 'data/Relationships/One2MBeanRelationship.php',
-  'Sugarcrm\\Sugarcrm\\custom\\Security\\Csrf\\CsrfAuthenticator' => false,
-  'EmailAddressRelationship' => 'data/Relationships/EmailAddressRelationship.php',
-  'SugarWidget' => 'include/generic/SugarWidgets/SugarWidget.php',
-  'SugarWidgetSubPanelTopButton' => 'include/generic/SugarWidgets/SugarWidgetSubPanelTopButton.php',
-  'SugarWidgetSubPanelTopButtonQuickCreate' => 'include/generic/SugarWidgets/SugarWidgetSubPanelTopButtonQuickCreate.php',
-  'SugarWidgetField' => 'include/generic/SugarWidgets/SugarWidgetField.php',
-  'SugarWidgetSubPanelDetailViewLink' => 'include/generic/SugarWidgets/SugarWidgetSubPanelDetailViewLink.php',
-  'SugarSearchEngineFactory' => 'include/SugarSearchEngine/SugarSearchEngineFactory.php',
-  'AdministrationViewClassic' => false,
-  'OAuthException' => false,
-  'ModuleBuilderViewMain' => 'modules/ModuleBuilder/views/view.main.php',
-  'EmailManViewConfig' => 'modules/EmailMan/views/view.config.php',
-  'ModuleBuilderViewModulefields' => 'modules/ModuleBuilder/views/view.modulefields.php',
-  'ModuleBuilderViewLabels' => 'modules/ModuleBuilder/views/view.labels.php',
-  'ModuleBuilderViewModulefield' => 'modules/ModuleBuilder/views/view.modulefield.php',
-  'ModuleBuilderViewLayoutview' => 'modules/ModuleBuilder/views/view.layoutview.php',
-  'RelatedFieldExpression' => 'include/Expressions/Expression/Generic/RelatedFieldExpression.php',
-  'SugarDropDownValueExpression' => 'include/Expressions/Expression/String/SugarDropDownValueExpression.php',
-  'DuplicateCheckStrategy' => 'data/duplicatecheck/DuplicateCheckStrategy.php',
-  'FilterDuplicateCheck' => 'data/duplicatecheck/FilterDuplicateCheck.php',
 );

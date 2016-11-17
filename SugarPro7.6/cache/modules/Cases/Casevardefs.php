@@ -693,39 +693,6 @@
       'source' => 'non-db',
       'vname' => 'LBL_PROJECTS',
     ),
-    'support_level_c' => 
-    array (
-      'labelValue' => 'Support_Level',
-      'full_text_search' => 
-      array (
-        'boost' => '0',
-        'enabled' => false,
-      ),
-      'enforced' => '',
-      'dependency' => '',
-      'required' => false,
-      'source' => 'custom_fields',
-      'name' => 'support_level_c',
-      'vname' => 'LBL_SUPPORT_LEVEL',
-      'type' => 'varchar',
-      'massupdate' => false,
-      'default' => NULL,
-      'no_default' => false,
-      'comments' => '',
-      'help' => 'The current support',
-      'importable' => 'true',
-      'duplicate_merge' => 'enabled',
-      'duplicate_merge_dom_value' => '1',
-      'audited' => false,
-      'reportable' => true,
-      'unified_search' => false,
-      'merge_filter' => 'disabled',
-      'calculated' => false,
-      'len' => '255',
-      'size' => '20',
-      'id' => 'Casessupport_level_c',
-      'custom_module' => 'Cases',
-    ),
   ),
   'indices' => 
   array (
@@ -1073,5 +1040,5 @@
   'related_calc_fields' => 
   array (
   ),
-  'custom_fields' => true,
+  'custom_fields' => false,
 );
