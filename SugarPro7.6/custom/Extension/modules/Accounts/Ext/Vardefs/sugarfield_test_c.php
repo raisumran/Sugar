@@ -1,6 +1,6 @@
 <?php
- // created: 2016-12-01 23:39:29
-$dictionary['Account']['fields']['test_c']['labelValue']='test';
+ // created: 2016-12-01 23:50:58
+$dictionary['Account']['fields']['test_c']['labelValue']='test1';
 $dictionary['Account']['fields']['test_c']['dependency']='';
 $dictionary['Account']['fields']['test_c']['visibility_grid']=array (
   'trigger' => 'account_type',
